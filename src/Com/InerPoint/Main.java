@@ -42,9 +42,16 @@ public class Main {
 
         //endregion
 
-        System.out.println();
+        //region Cenzura
+//        System.out.println();
+//
+//        ChangeWord cw = new ChangeWord("всякая кака бяка");
+//        System.out.println(cw.Cenz());
+        //endregion
 
-        ChangeWord cw = new ChangeWord("всякая кака бяка");
-        System.out.println(cw.Cenz());
+        //region Game
+        Game gm = new Game();
+
+        //endregion
     }
 }
