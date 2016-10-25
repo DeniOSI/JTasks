@@ -19,6 +19,29 @@ public class Main {
         System.out.println("Вес на луне = " + wom.WeightOnTheMoon());
         //endregion
 
+        //region PlusTen
+        int[] arr = {10, 30, 15, 18};
+        System.out.print("Базовый массив");
+        System.out.println();
+        for (int value: arr
+             ) {
+            System.out.print(value + " | ");
+
+        }
+
+        System.out.println();
+        ElemPlus10 ep = new ElemPlus10(arr);
+        arr = ep.PlusTen();
+        System.out.println("Результатирующий массив");
+        for (int value: arr
+                ) {
+            System.out.print(value + " | ");
+
+        }
+
+
+        //endregion
+
 
     }
 }
