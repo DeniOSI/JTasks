@@ -21,7 +21,7 @@ public class ChangeWord {
         }
         for(int i=0; i< resArr.length; i++)
         {
-            if(resArr[i].compareTo("бяка")) {
+            if(resArr[i].equals("бяка")) {
             resultString = resultString + " цензура ";
             }
             else
