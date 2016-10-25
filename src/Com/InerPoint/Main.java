@@ -42,6 +42,9 @@ public class Main {
 
         //endregion
 
+        System.out.println();
 
+        ChangeWord cw = new ChangeWord("всякая кака бяка");
+        System.out.println(cw.Cenz());
     }
 }
