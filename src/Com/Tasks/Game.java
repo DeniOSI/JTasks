@@ -2,9 +2,6 @@ package Com.Tasks;
 
 import java.util.Random;
 
-/**
- * Created by Osipenko on 25.10.2016.
- */
 public class Game {
 
     private char Alfabet[] = new  char[27];
@@ -31,6 +28,13 @@ public class Game {
        return Alfabet[rnd.nextInt(27)];
     }
 
-
+    public short SymbolToNumb(char ch)
+    {
+        for(int i=0; i< Alfabet.length; i++)
+        {
+            if(Alfabet[i]==ch) {return (short)i;}
+        }
+        return -1;
+    }
 
 }
