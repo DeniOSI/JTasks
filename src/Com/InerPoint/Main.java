@@ -88,7 +88,12 @@ public class Main {
 //        System.out.println( "Среднее значение = " + av.AvgS());
         //endregion
 
-
+        //region Places
+    //    int times[] = {33, 10, 99, 12, 44};
+    //    String[] names = {"Ben", "Tony", "leo", "San", "Chen"};
+     //   Marathon m1 = new Marathon(names, times);
+     //   m1.InfoPlaces();
+        //endregion
 
     }
 }
