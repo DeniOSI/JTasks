@@ -50,22 +50,31 @@ public class Main {
         //endregion
 
         //region Game
-        Game gm = new Game();
-        char getCh = gm.GenSymbol();
-        Scanner sc = new Scanner(System.in);
-        do{
-            System.out.println("Enter you symbol");
-            char ch = sc.nextLine().charAt(0);
-            if(gm.SymbolToNumb(ch) == gm.SymbolToNumb(getCh))
-            {
-                System.out.println("Right"); return;
-            } else if(gm.SymbolToNumb(ch) > gm.SymbolToNumb(getCh))
-            {
-                System.out.println("You’re too high");
-            }
-            System.out.println("You’re too low");
-
-        } while (true);
+//        Game gm = new Game();
+//        char getCh = gm.GenSymbol();
+//        Scanner sc = new Scanner(System.in);
+//        do{
+//            System.out.println("Enter you symbol");
+//            char ch = sc.nextLine().charAt(0);
+//            if(gm.SymbolToNumb(ch) == gm.SymbolToNumb(getCh))
+//            {
+//                System.out.println("Right"); return;
+//            } else if(gm.SymbolToNumb(ch) > gm.SymbolToNumb(getCh))
+//            {
+//                System.out.println("You’re too high");
+//            }
+//            System.out.println("You’re too low");
+//
+//        } while (true);
         //endregion
+
+        //region simpleNumber
+//        SimpleNubmer sn = new SimpleNubmer(99);
+//        sn.PrinSimp();
+
+        SimpleNubmer SnB = new SimpleNubmer(20, 88);
+        SnB.PrinSimp();
+        //endregion
+
     }
 }
