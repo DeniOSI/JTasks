@@ -77,16 +77,18 @@ public class Main {
         //endregion
 
         //region Avg
-        double[] arr = {14.44, 24.2, 44.9, 889.1};
-        Avg av = new Avg(arr);
-        for (double db: arr)
-        {
-            System.out.print(db + "|");
-
-        }
-
-        System.out.println( "Среднее значение = " + av.AvgS());
+//        double[] arr = {14.44, 24.2, 44.9, 889.1};
+//        Avg av = new Avg(arr);
+//        for (double db: arr)
+//        {
+//            System.out.print(db + "|");
+//
+//        }
+//
+//        System.out.println( "Среднее значение = " + av.AvgS());
         //endregion
+
+
 
     }
 }
