@@ -11,5 +11,5 @@ public class ElemPlus10 {
     {
         baseArr = InArr;
     }
-    
+
 }
